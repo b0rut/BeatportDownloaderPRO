@@ -142,7 +142,7 @@ Our architecture enforces a rigorous **Source Priority Policy** and **Exact Trac
 | Plan Tier | Price | Daily Downloads | Audio Formats | Target Use Case |
 |---|---|---|---|---|
 | **Free Demo** | **€0.00** | **50 total / 24h**<br>*(10 Free 24-bit Lossless)* | `128 kbps AAC` · `24-bit FLAC`<br>• *10 Free 24-bit FLAC / WAV daily* | Everyday Track Curation & Casual Listening |
-| **High Quality (PRO)** | **€12.99**<br>*(Lifetime License)* | **1,250 total / 24h**<br>*(25 Daily 24-bit Lossless)* | `320 kbps MP3` (CBR CDJ Master)<br>`320 kbps AAC` · `256k AAC`<br>• *25 Daily 24-bit FLAC / WAV* | Club DJs & Mobile Gig Performance |
+| **High Quality (PRO)** | **€17.99**<br>*(Lifetime License)* | **1,250 total / 24h**<br>*(25 Daily 24-bit Lossless)* | `320 kbps MP3` (CBR CDJ Master)<br>`320 kbps AAC` · `256k AAC`<br>• *25 Daily 24-bit FLAC / WAV* | Club DJs & Mobile Gig Performance |
 | **Ultra Studio PRO** | **€24.99**<br>*(Lifetime License)* | **Unlimited**<br>*(Zero Limits)* | `24-bit FLAC` · `24-bit WAV` · `24-bit AIFF`<br>`320 kbps MP3` · `320 kbps AAC` | Touring Headliners & Studio Mastering |
 
 > All paid plans feature a **One-Time Lifetime License Key** with no monthly subscriptions and an unconditional **14-Day Money-Back Guarantee**.
