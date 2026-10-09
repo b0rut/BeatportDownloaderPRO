@@ -4,7 +4,7 @@
   </a>
   <h1 align="center">🎧 Beatport Downloader PRO</h1>
   <p align="center"><strong>The Ultimate Studio-Grade Music Downloader & Curation Suite for Professional DJs and Electronic Music Producers</strong></p>
-  <p align="center"><em>Download 24-bit Lossless FLAC, WAV, AIFF & 320 kbps MP3 with Pioneer CDJ / Rekordbox ID3v2.3 Ready Metadata</em></p>
+  <p align="center"><em>Download Bit-Perfect 24-bit Lossless FLAC, WAV, AIFF & 320 kbps MP3 with Pioneer CDJ / Rekordbox ID3v2.3 Ready Metadata</em></p>
 
   <p align="center">
     <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Web_App-Launch_Live-FF5A1F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Web App" /></a>
@@ -27,13 +27,82 @@
 
 ---
 
-## ⚡ What is Beatport Downloader PRO?
+## 🎧 What is Beatport Downloader PRO?
 
-**Beatport Downloader PRO** is the next-generation music acquisition, conversion, and crate-management suite engineered specifically for touring DJs, festival headliners, and club residents. Built from the ground up for maximum sonic fidelity, blazing batch speed, and turnkey Pioneer CDJ / Rekordbox compatibility, it eliminates tedious manual tagging, mismatched waveforms, and low-quality rips forever.
+**Beatport Downloader PRO** is the next-generation music acquisition, conversion, and crate-management workstation engineered specifically for touring DJs, festival headliners, and club residents. Built for maximum sonic fidelity, high-speed batch streaming, and turnkey Pioneer CDJ / Rekordbox compatibility, it eliminates tedious manual tagging, mismatched waveforms, and low-quality audio rips.
 
 Whether you need **Studio Master 24-bit FLAC / WAV / AIFF**, **320 kbps Club CBR MP3** with CDJ-compatible ID3v2.3 tags, or lightweight AAC curation streams, Beatport Downloader PRO delivers pristine studio audio with 100% verified Camelot keys, exact BPM grids, and high-resolution embedded album artwork out-of-the-box.
 
 👉 **[Launch Live Web Application (No Install Required)](https://beatport-downloader.com/app)**
+
+---
+
+## 🌐 Multi-Platform Lossless Music Engine (Engine 2.0)
+
+Beatport Downloader PRO features an intelligent **Multi-Source Parallel Resolver Engine** that unifies the world's leading music streaming and catalog platforms into a cohesive lossless acquisition pipeline.
+
+<div align="center">
+  <p>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Qobuz-24--bit_Hi--Res_Studio_Master-002244?style=for-the-badge&logo=qobuz&logoColor=white" alt="Qobuz" /></a>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/TIDAL-Master_Lossless_FLAC-000000?style=for-the-badge&logo=tidal&logoColor=00FFFF" alt="TIDAL" /></a>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Deezer-HiFi_Lossless_16--bit-A238FF?style=for-the-badge&logo=deezer&logoColor=white" alt="Deezer" /></a>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Amazon_Music-Ultra_HD_24--bit-00A8E1?style=for-the-badge&logo=amazonmusic&logoColor=white" alt="Amazon Music" /></a>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Spotify-ISRC_Metadata_Bridge-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" /></a>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Beatport-Extended_Mixes_Fallback-00EA82?style=for-the-badge&logo=beatport&logoColor=black" alt="Beatport" /></a>
+  </p>
+  <p>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Apple_Music-Lossless_Catalog_Sync-FA243C?style=for-the-badge&logo=applemusic&logoColor=white" alt="Apple Music" /></a>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/YouTube_Music-Stream_Curation_Sync-FF0000?style=for-the-badge&logo=youtubemusic&logoColor=white" alt="YouTube Music" /></a>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/SoundCloud-Underground_Tracklists-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" alt="SoundCloud" /></a>
+  </p>
+</div>
+
+### 🏗️ How We Implemented New Music Platforms
+
+Our architecture enforces a rigorous **Source Priority Policy** and **Exact Track Verification Matrix** designed specifically to protect sound system dynamic headroom:
+
+```
+[Search Query / Playlist URL]
+              │
+              ▼
+┌──────────────────────────────────────────────────────────────────────────┐
+│              MULTI-SOURCE PARALLEL RESOLVER (ThreadPoolExecutor)         │
+│  Queries Qobuz, TIDAL, Deezer, Amazon Music & Spotify concurrently      │
+└──────────────────────────────────────┬───────────────────────────────────┘
+                                       │
+                                       ▼
+┌──────────────────────────────────────────────────────────────────────────┐
+│                   EXACT MATCH & VERIFICATION ENGINE                      │
+│  • Mix Version Consistency (Never substitutes Radio Edit for Club Mix)   │
+│  • Duration Tolerance Gating (Tight ±3–5s threshold)                    │
+│  • ISRC Cross-Catalog Bit-Perfect Verification                           │
+│  • Camelot Key Circle & Native BPM Normalization                         │
+└──────────────────────────────────────┬───────────────────────────────────┘
+                                       │
+                     ┌─────────────────┴─────────────────┐
+                     ▼                                   ▼
+        [Verified Exact Non-Beatport]          [No Non-Beatport Match]
+                     │                                   │
+                     ▼                                   ▼
+          Bit-Perfect Studio Stream            Beatport Catalog Fallback
+       (Qobuz / TIDAL / Deezer / Amazon)      (Club Exclusives & Extendeds)
+```
+
+1. **Deterministic Source Priority Hierarchy**:
+   - **Qobuz (Priority 1)**: Primary source for studio hi-res 24-bit masters (up to 192 kHz / 24-bit) offering pure uncompressed dynamic range.
+   - **TIDAL (Priority 2)**: Master lossless FLAC and HiFi tiers verified via exact ISRC matching.
+   - **Deezer (Priority 3)**: Bit-perfect 16-bit / 44.1 kHz CD-quality FLAC and pristine uncompressed 1000×1000 `cover_xl` artwork.
+   - **Amazon Music (Priority 4)**: Ultra HD lossless 24-bit master audio streams.
+   - **Spotify (Priority 5)**: Authoritative track metadata, ISRC mapping, and Camelot harmonic key bridge.
+   - **Beatport (Priority 6 - Strict Fallback)**: Reserved exclusively as a last-resort fallback for underground DJ exclusives and extended club mixes not released on consumer streaming platforms.
+2. **Mix Version & Duration Guardrails**:
+   - Algorithms prevent mix mismatching. If a DJ requests an `Extended Mix`, `Club Mix`, `VIP`, or specific `Remix`, short radio cuts or edits are disqualified automatically.
+   - Track duration is strictly validated against official release registries within a ±3–5 second tolerance window.
+3. **Harmonic Key Wheel & ID3v2.3 Injection**:
+   - Pitch analysis maps every track directly onto the 1A–12B Camelot circle.
+   - Metadata is injected natively into standard ID3v2.3 `TKEY` and Rekordbox `InitialKey` tags so USB drives load instantly into Pioneer CDJ-3000, CDJ-2000NXS2, Opus Quad, and standalone DJ rigs.
+4. **Ultra-HD 1400×1400 Artwork Delivery**:
+   - High-definition front covers are resolved from studio master asset CDNs, converted to standard `APIC` binary frames, and embedded directly into audio files for crisp display on Pioneer CDJ and Denon Prime touchscreen decks.
 
 ---
 
@@ -46,25 +115,25 @@ Whether you need **Studio Master 24-bit FLAC / WAV / AIFF**, **320 kbps Club CBR
 
 | Stage | Feature | Description |
 |---|---|---|
-| **1. Universal Ingestion** | **Multi-Source Converter** | Paste playlists from Spotify, Apple Music, YouTube Music, Deezer, TIDAL, SoundCloud, or text tracklists. |
+| **1. Universal Ingestion** | **Multi-Source Converter** | Paste playlists from Spotify, Apple Music, YouTube Music, Deezer, TIDAL, SoundCloud, or CSV tracklists. |
 | **2. Harmonic Matching** | **Camelot Key Sync** | Instant harmonic detection matching catalog tracks with precise Camelot keys (`1A`–`12B`) and exact BPM. |
 | **3. Studio Codec Engine** | **Audiophile Master** | Choose between 24-bit Studio Master FLAC, uncompressed 16-bit WAV PCM, Pioneer AIFF, or 320k MP3. |
-| **4. Multi-Stream Queue** | **High-Speed Acceleration** | Download entire 50+ track crates concurrently with multi-threaded chunk streaming up to 3.4 MB/s. |
+| **4. Multi-Stream Queue** | **Accelerated Batch Engine** | Download entire 50+ track crates concurrently with multi-threaded chunk streaming up to 3.4 MB/s. |
 | **5. Storage Management** | **Direct Disk Auto-Save** | Writes straight to your external USB or DJ directory via Web File System API, or packages into clean ZIPs. |
 | **6. DJ Metadata Injection** | **Rekordbox & CDJ Ready** | ID3v2.3 bit-perfect tagging with embedded 1400×1400 front artwork, artist, title, mix, label, key, and BPM. |
 | **7. Club Verification** | **Zero Artifacts** | Full dynamic range without clipping, harsh high-frequency cutoff, or missing metadata on CDJ-3000s. |
 
 ---
 
-## ✨ Key Features & Benefits
+## ✨ Key Features & Capabilities
 
-- 💎 **True Studio-Grade Audio Options**: Download in uncompressed **24-bit / 44.1 kHz FLAC**, **24-bit AIFF**, **16-bit WAV (PCM)**, or **320 kbps CBR MP3** encoded with `libmp3lame` and high-frequency cutoff protection.
-- 🎛️ **Pioneer CDJ & Rekordbox Ready**: Automatic ID3v2.3 tagging, Camelot harmonic key detection (e.g. `8A / 11B`), exact BPM labeling, and embedded 1400×1400 HD front artwork ensure instant USB plug-and-play on CDJ-3000, CDJ-2000NXS2, and standalone DJ rigs.
+- 💎 **True Studio-Grade Audio Formats**: Download in bit-perfect uncompressed **24-bit / 44.1 kHz FLAC**, **24-bit AIFF**, **16-bit WAV (PCM)**, or **320 kbps CBR MP3** encoded with `libmp3lame` and high-frequency cutoff protection.
+- 🎛️ **Pioneer CDJ & Rekordbox Ready**: Automatic ID3v2.3 tagging, Camelot harmonic key detection (e.g. `8A / 11B`), exact BPM labeling, and embedded 1400×1400 HD front artwork ensure instant USB plug-and-play on CDJ-3000, CDJ-2000NXS2, and standalone DJ consoles.
 - 🔄 **Universal Playlist Ingestion**: Simply paste playlist URLs from Spotify, Apple Music, YouTube Music, Deezer, or TIDAL to automatically resolve and pull official extended DJ club masters directly into your download crate.
-- ⚡ **Turbo Batch & Crate Downloads**: One-click acquisition of entire top 100 genre charts, curated DJ sets, and full artist discographies with concurrent multi-threaded worker pipelines.
-- 🏷️ **Smart Customizable Naming Templates**: Organize your DJ library automatically with dynamic templates such as `[Key - BPM] Artist - Title (Mix)` or `Artist - Title [Key - BPM]`.
+- 📦 **High-Speed Batch & Crate Downloads**: One-click acquisition of entire top 100 genre charts, curated DJ sets, and full artist discographies with concurrent multi-threaded worker pipelines.
+- 🏷️ **Customizable Naming Templates**: Organize your DJ library automatically with dynamic templates such as `[Key - BPM] Artist - Title (Mix)` or `{Genre} / {Artist} / Track.flac`.
 - 🎵 **Integrated DJ Deck & Waveform Player**: Audition tracks with smooth real-time waveform scrubbing, high-precision key meters, and instant in-app preview before queuing.
-- 📁 **Direct Local Folder Writes**: Saves directly to your designated external USB or music directory (`~/Music/DJ Crates`) via the modern Web File System Access API.
+- 📁 **Direct Local Folder Auto-Save**: Saves directly to your designated external USB or music directory (`~/Music/DJ Crates`) via the modern Web File System Access API with zero browser prompt friction.
 
 ---
 
@@ -72,9 +141,11 @@ Whether you need **Studio Master 24-bit FLAC / WAV / AIFF**, **320 kbps Club CBR
 
 | Plan Tier | Price | Daily Downloads | Audio Formats | Target Use Case |
 |---|---|---|---|---|
-| **Free Demo** | **€0.00** | **50 total / 24h**<br>*(10 Free 24-bit Lossless)* | `192 kbps MP3` · `128 kbps AAC`<br>• *10 Free 24-bit FLAC / WAV daily* | Everyday Track Curation & Casual Listening |
-| **High Quality (PRO)** | **€7.99** | **1,250 total / 24h**<br>*(25 Daily 24-bit Lossless)* | `320 kbps MP3` (CBR CDJ Master)<br>`320 kbps AAC` · `256k AAC` · `192k MP3`<br>• *25 Daily 24-bit FLAC / WAV* | Club DJs & Mobile Gig Performance |
-| **Ultra Studio PRO** | **€13.99** | **Unlimited**<br>*(Zero Limits)* | `24-bit FLAC` · `24-bit WAV` · `24-bit AIFF`<br>`320 kbps MP3` · `320 kbps AAC` | Touring Headliners & Studio Mastering |
+| **Free Demo** | **€0.00** | **50 total / 24h**<br>*(10 Free 24-bit Lossless)* | `128 kbps AAC` · `24-bit FLAC`<br>• *10 Free 24-bit FLAC / WAV daily* | Everyday Track Curation & Casual Listening |
+| **High Quality (PRO)** | **€12.99**<br>*(Lifetime License)* | **1,250 total / 24h**<br>*(25 Daily 24-bit Lossless)* | `320 kbps MP3` (CBR CDJ Master)<br>`320 kbps AAC` · `256k AAC`<br>• *25 Daily 24-bit FLAC / WAV* | Club DJs & Mobile Gig Performance |
+| **Ultra Studio PRO** | **€24.99**<br>*(Lifetime License)* | **Unlimited**<br>*(Zero Limits)* | `24-bit FLAC` · `24-bit WAV` · `24-bit AIFF`<br>`320 kbps MP3` · `320 kbps AAC` | Touring Headliners & Studio Mastering |
+
+> All paid plans feature a **One-Time Lifetime License Key** with no monthly subscriptions and an unconditional **14-Day Money-Back Guarantee**.
 
 ---
 
@@ -85,8 +156,12 @@ Whether you need **Studio Master 24-bit FLAC / WAV / AIFF**, **320 kbps Club CBR
   <p><em>Instant access to Top 10 Worldwide, Best New Releases, and global audio quality selectors</em></p>
   <img src="docs/screenshots/app_home.png" alt="Beatport Downloader PRO Home Dashboard" width="950" style="border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,0.5); margin-bottom: 28px;" />
 
+  <h3>🔍 Multi-Source Search & Engine 2.0 Platform Integration</h3>
+  <p><em>Real-time catalog search across Beatport, Deezer, Amazon Music, TIDAL, Qobuz, and Spotify with live lossless indicators</em></p>
+  <img src="docs/screenshots/app_search.png" alt="Engine 2.0 Multi-Platform Search View" width="950" style="border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,0.5); margin-bottom: 28px;" />
+
   <h3>🔄 Universal Playlist Converter (Spotify, Apple Music, YouTube, Deezer, TIDAL)</h3>
-  <p><em>Convert external playlists into Beatport extended club tracks with harmonic matching</em></p>
+  <p><em>Convert external playlists into extended club tracks with harmonic matching and ISRC verification</em></p>
   <img src="docs/screenshots/app_playlist_convert.png" alt="Universal Playlist Converter Modal" width="950" style="border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,0.5); margin-bottom: 28px;" />
 
   <h3>🎛️ Harmonic Sync DJ Crate & Camelot Key Grid</h3>
@@ -97,43 +172,30 @@ Whether you need **Studio Master 24-bit FLAC / WAV / AIFF**, **320 kbps Club CBR
   <p><em>Choose between all 8 industry-standard studio master codecs and bit depths</em></p>
   <img src="docs/screenshots/app_formats.png" alt="Audio Quality Menu" width="950" style="border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,0.5); margin-bottom: 28px;" />
 
-  <h3>⚡ High-Speed Multi-Stream Concurrent Download Engine (3.4 MB/s)</h3>
-  <p><em>Stream dozens of lossless files concurrently directly to your storage disk with real-time telemetry</em></p>
-  <img src="docs/screenshots/app_downloads.png" alt="Active Multi-Stream Batch Downloads Manager" width="950" style="border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,0.5); margin-bottom: 28px;" />
+  <h3>📥 High-Speed Batch Queue & Downloaded DJ Library</h3>
+  <p><em>Stream dozens of lossless files concurrently directly to your storage disk with real-time telemetry and M3U8 export</em></p>
+  <img src="docs/screenshots/app_downloads.png" alt="Active Multi-Stream Batch Downloads & DJ Library" width="950" style="border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,0.5); margin-bottom: 28px;" />
 
   <h3>📁 Direct Local USB & DJ Library Directory Auto-Save</h3>
-  <p><em>Automatic directory writes with zero browser confirmation prompts</em></p>
+  <p><em>Automatic directory writes with Pioneer CDJ FAT32/exFAT filename sanitization and customizable token patterns</em></p>
   <img src="docs/screenshots/app_settings.png" alt="Download Settings & DJ Directory Configuration" width="950" style="border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,0.5); margin-bottom: 28px;" />
 </div>
 
 ---
 
-## 🛠️ Quick Start
+## 🚀 Quick Start Guide
 
-### 🌐 Option 1: In-Browser Web App (Recommended)
 1. Open **[beatport-downloader.com/app](https://beatport-downloader.com/app)** in Chrome, Brave, Edge, or Firefox.
-2. Sign in or create a free account to instantly unlock your **50 daily free downloads + 10 lossless FLAC tracks**.
+2. Sign in or use the demo to instantly unlock your **50 daily free downloads + 10 lossless FLAC tracks**.
 3. Choose your preferred format from the header **Quick Access Menu** (`FLAC`, `WAV`, `AIFF`, `320k MP3`, etc.).
-4. Search or paste a playlist and click **Download**.
-
-### 💻 Option 2: Command-Line Interface (CLI)
-```bash
-# Clone the repository
-git clone https://github.com/b0rut/beatport-downloader.git
-cd beatport-downloader
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Launch interactive CLI suite
-python -m beatport_cli --help
-```
+4. Search for any track or paste a playlist link and click **Download**.
+5. Plug your USB drive into your Pioneer CDJs or import directly into Rekordbox, Serato DJ, Traktor, or Engine DJ.
 
 ---
 
 ## 🎯 Ideal For
 
-- 🎧 **Club & Festival DJs**: Prepare bulletproof USB drives with harmonic Camelot keys and lossless audio for peak-time mainstage sound systems.
+- 🎧 **Club & Festival DJs**: Prepare reliable USB drives with harmonic Camelot keys and lossless audio for peak-time mainstage sound systems.
 - 📻 **Radio & Podcast Hosts**: Download complete high-bitrate crates in seconds for weekly radio mixes.
 - 🎚️ **Producers & Remixer Teams**: Access clean reference tracks and high-definition stems in uncompressed 24-bit quality.
 
@@ -150,5 +212,5 @@ python -m beatport_cli --help
 ---
 
 <div align="center">
-  <sub>Built with ❤️ for the global electronic music community. Pioneer DJ, Rekordbox, and Beatport are trademarks of their respective owners.</sub>
+  <sub>Built with care for the global electronic music community. Pioneer DJ, Rekordbox, and Beatport are trademarks of their respective owners.</sub>
 </div>
