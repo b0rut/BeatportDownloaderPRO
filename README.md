@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://beatport-downloader.com/app">
-    <img src="https://beatport-downloader.com/favicon.svg" width="80" height="80" alt="Beatport Downloader PRO" />
+    <img src="docs/assets/logo.svg" width="96" height="96" alt="Beatport Downloader PRO" />
   </a>
   <h1 align="center">🎧 Beatport Downloader PRO</h1>
   <p align="center"><strong>The Ultimate Studio-Grade Music Downloader & Curation Suite for Professional DJs and Electronic Music Producers</strong></p>
@@ -206,7 +206,7 @@ Our architecture enforces a rigorous **Source Priority Policy** and **Exact Trac
 - 🌐 **Official Website**: [https://beatport-downloader.com](https://beatport-downloader.com)
 - 🚀 **Live Web App**: [https://beatport-downloader.com/app](https://beatport-downloader.com/app)
 - 📖 **DJ Guides & Tutorials**: [https://beatport-downloader.com/blog](https://beatport-downloader.com/blog)
-- 💬 **Discord VIP Community**: [Join our Discord](https://discord.gg/v6K34tQf)
+- 💬 **Discord VIP Community**: [Join our Discord](https://discord.gg/v6K34tQf) — members get **+25 bonus lossless downloads/day**
 - ⭐ **Star this repository** if Beatport Downloader PRO powers your DJ sets!
 
 ---
