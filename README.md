@@ -9,7 +9,7 @@
   <p align="center">
     <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Web_App-Launch_Live-FF5A1F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Web App" /></a>
     <a href="https://beatport-downloader.com"><img src="https://img.shields.io/badge/Official_Website-beatport--downloader.com-00C853?style=for-the-badge&logo=safari&logoColor=white" alt="Website" /></a>
-    <a href="https://discord.gg/v6K34tQf"><img src="https://img.shields.io/badge/Community-Discord_VIP-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+    <a href="https://discord.gg/beatportdownloader"><img src="https://img.shields.io/badge/Community-Discord_VIP-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   </p>
 
   <p align="center">
@@ -206,7 +206,7 @@ Our architecture enforces a rigorous **Source Priority Policy** and **Exact Trac
 - 🌐 **Official Website**: [https://beatport-downloader.com](https://beatport-downloader.com)
 - 🚀 **Live Web App**: [https://beatport-downloader.com/app](https://beatport-downloader.com/app)
 - 📖 **DJ Guides & Tutorials**: [https://beatport-downloader.com/blog](https://beatport-downloader.com/blog)
-- 💬 **Discord VIP Community**: [Join our Discord](https://discord.gg/v6K34tQf) — members get **+25 bonus lossless downloads/day**
+- 💬 **Discord VIP Community**: [Join our Discord](https://discord.gg/beatportdownloader) — members get **+25 bonus lossless downloads/day**
 - ⭐ **Star this repository** if Beatport Downloader PRO powers your DJ sets!
 
 ---
